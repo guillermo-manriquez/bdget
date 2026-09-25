@@ -37,7 +37,7 @@ jobs:
 
       # Paso 5: Construir la imagen de Docker
       - name: Upload JaCoCo Report
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with: 
           name: jacoco-Report
           path: target/site/jacoco
